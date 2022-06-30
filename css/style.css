@@ -1,0 +1,96 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+.navbar{
+    background: red;
+    border: none;
+    border-radius: 0 !important;
+}
+.nav li a{
+    color:white !important;
+    padding:20px !important;
+  }
+  .form-wrapper{
+
+    width: 380px;
+    background: #fff;
+    border-radius: 5px;
+    }
+    .form-wrapper .title{
+    
+    line-height: 80px;
+    background: #fff;
+    padding-left: 20px !important;
+    border-radius: 5px 5px 0 0 !important;
+    color: grey;
+    font-size: 25px;
+    font-weight: 600;
+    }
+    .form-wrapper form{
+    
+    padding: 30px 20px 25px 20px !important;
+    }
+    .form-wrapper form .row{
+    
+    height: 45px;
+    /* background: #ff0000; */
+    margin-bottom: 15px !important;
+    position: relative;
+    }
+    .form-wrapper form .row input{
+    
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px !important;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+    }
+    .form-wrapper form .row i {
+    
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    /* color: #fff; */
+    font-size: 18px;
+    /* background: #16a085; */
+    border: 1px solid lightgrey;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .form-wrapper form .button input{
+    
+    color: #fff;
+    padding-left: 0px !important;
+    background: red;
+    cursor: pointer;
+    font-size: 18px;
+    }
+    .form-wrapper form .pass{
+    
+    margin: -8px 0 20px 0 !important;
+    }
+    .form-wrapper form .pass a{
+    
+    color: red;
+    font-size: 17px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px !important;
+    }
+    .form-wrapper form .pass a:hover{
+    
+    text-decoration: underline;
+    }
+    .title .fa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
